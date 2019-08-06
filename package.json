@@ -1,20 +1,25 @@
 {
-  "name": "egghead-modern-js-tooling-react",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MrRoboman/egghead-modern-js-tooling-react.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/MrRoboman/egghead-modern-js-tooling-react/issues"
-  },
-  "homepage": "https://github.com/MrRoboman/egghead-modern-js-tooling-react#readme"
+    "name": "egghead-modern-js-tooling-react",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MrRoboman/egghead-modern-js-tooling-react.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/MrRoboman/egghead-modern-js-tooling-react/issues"
+    },
+    "homepage": "https://github.com/MrRoboman/egghead-modern-js-tooling-react#readme",
+    "devDependencies": {
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6"
+    }
 }
